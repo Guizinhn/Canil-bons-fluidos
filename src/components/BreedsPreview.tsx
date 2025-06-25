@@ -2,28 +2,24 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 const breeds = [{
   name: 'Corgi',
-  description: 'Ativo, inteligente e sociável. Ideal para quintal. Longevidade de 11-13 anos. Requer cuidados com discos e displasia.',
-  image: 'https://images.unsplash.com/photo-1612536057832-2ff7ead58194?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
-}, {
-  name: 'Border Collie',
-  description: 'Superinteligente e energético. Ideal para quintal.',
-  image: 'https://images.unsplash.com/photo-1503256207526-0d5d80fa2f47?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1036&q=80'
+  description: 'Conheça o Corgi: o baixinho mais charmoso do pedaço! Com orelhas gigantes, bumbum fofo e um sorriso que derrete corações, o Corgi é puro amor e alegria em forma de patas curtinhas. Um verdadeiro rei da fofura esperando por você!',
+  image: '/src/img/Corgi.jpg'
 }, {
   name: 'Cavachon',
-  description: 'Híbrido entre Bichon Frisé e Cavalier. Estrutura robusta e pelagem hipoalergênica.',
-  image: 'https://images.unsplash.com/photo-1591769225440-811ad7d6eab3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
+  description: 'Cavachon: o pacotinho de doçura que faltava na sua vida! Mistura perfeita de carinho e charme, o Cavachon é peludinho, carinhoso e sempre pronto pra te fazer sorrir. Um companheiro leve, fofo e impossível de não amar! ',
+  image: '/src/img/cavachon.jpeg'
 }, {
   name: 'Bichon Frisé',
-  description: 'Alegre e brincalhão. Pode latir. Expectativa de vida de 12-15 anos. Risco de luxação de patela.',
-  image: 'https://images.unsplash.com/photo-1581467655410-0c2bf55d9d6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
+  description: ' Bichon Frisé: um floquinho de alegria com patas! Branquinho, fofinho e cheio de charme, o Bichon Frisé parece um ursinho de pelúcia que te dá amor de verdade. Companheiro ideal pra quem quer carinho e estilo num só doguinho!',
+  image: '/src/img/bichon.jpg'
 }, {
-  name: 'Spitz Alemão',
-  description: 'Carinhoso, pequeno mas confiante. Vive bem em apartamento. Expectativa de vida de 12-16 anos. Cuidado com patela.',
-  image: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80'
+  name: ' Spitz Alemão',
+  description: 'pitz Alemão: uma bola de pelos com atitude de estrela! Pequenininho, elegante e com uma juba digna de rei, o Spitz Alemão conquista com olhar esperto e personalidade marcante. Um mini leãozinho que vai roubar seu coração e os holofotes!',
+  image: '/src/img/Spitz alemao.jpg'
 }, {
   name: 'Cavalier',
-  description: 'Dócil e afetuoso. Bom convívio com pessoas e pets. Atenção à patela. Expectativa de vida de 12-15 anos.',
-  image: 'https://images.unsplash.com/photo-1626231537276-e7200c84459c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80'
+  description: 'Cavalier King Charles Spaniel: Doçura e elegância que encantam! O Cavalier é o companheiro perfeito para quem busca um amigo leal, carinhoso e cheio de charme. Pronto para conquistar seu coração?',
+  image: '/src/img/Cavalier.jpg'
 }];
 export function BreedsPreview() {
   return <section id="racas" className="py-16 bg-amber-50">

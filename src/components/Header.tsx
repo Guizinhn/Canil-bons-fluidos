@@ -22,6 +22,7 @@ export function Header() {
 
   return <header className="bg-amber-600 text-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+          <img src="/src/img/logocanil.png" alt="Logo do canil" />
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold">
             Família Bons Fluidos

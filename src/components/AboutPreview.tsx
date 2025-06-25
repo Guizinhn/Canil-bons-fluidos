@@ -9,7 +9,7 @@ export function AboutPreview() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <img src="https://images.unsplash.com/photo-1541599540903-216a46ca1dc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2371&q=80" alt="Nosso canil" className="rounded-lg shadow-lg w-full h-auto" />
+            <img src="/src/img/home cavachon.jpeg" alt="Nosso canil" className="rounded-lg shadow-lg w-full h-auto" />
           </div>
           <div>
             <h3 className="text-2xl font-semibold text-amber-700 mb-4">

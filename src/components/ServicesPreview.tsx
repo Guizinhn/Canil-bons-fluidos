@@ -52,7 +52,7 @@ export function ServicesPreview() {
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="mb-6 md:mb-0 md:mr-6">
               <h3 className="text-2xl font-semibold text-amber-800 mb-2">
-                Castração
+                Consulta de cuidado reprodutivo 
               </h3>
               <p className="text-gray-700">
                 Também oferecemos serviço de castração com toda segurança e
