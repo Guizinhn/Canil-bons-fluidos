@@ -2,35 +2,29 @@ import React from "react";
 
 const reprodutores = [
   {
-    nome: "Cavachon Bravo",
-    imagem: "/src/img/cavachon.jpeg",
-    descricao: "Macho premiado, linha internacional."
+    nome: "Rosinha",
+    imagem: "/src/reprodutoresCachorros/Rosinha.avif",
   },
   {
-    nome: "Spitz Thor",
-    imagem: "/src/img/Spitz alemao.jpg",
-    descricao: "Reprodutor com pedigree e ótima genética."
+    nome: "Sarita",
+    imagem: "/src/reprodutoresCachorros/Sarita.jpg",
   },
   {
-    nome: "Cavalier Roy",
-    imagem: "/src/img/Cavalier.jpg",
-    descricao: "Calmo, sociável e muito inteligente."
+    nome: "Sugar",
+    imagem: "/src/reprodutoresCachorros/Sugar.jpg",
   },
   {
     nome: "Bichon Fluffy",
     imagem: "/src/img/bichon.jpg",
-    descricao: "Pelagem densa e branca como neve."
   },
   {
     nome: "Corgi Max",
     imagem: "/src/img/Corgi.jpg",
-    descricao: "Baixinho simpático e muito esperto."
   },
   {
     nome: "Cavachon Jr.",
     imagem: "/src/img/home cavachon.jpeg",
-    descricao: "Filho do Bravo, segue o legado."
-  }
+  },
 ];
 
 export default function Reprodutores() {
@@ -40,6 +34,10 @@ export default function Reprodutores() {
         <h2 className="text-3xl font-bold text-center text-blue-900 mb-10">
           Nossos Reprodutores
         </h2>
+        <h3 className="text-4xl font-serif italic font-bold tracking-wide text-blue-800 text-left drop-shadow-md shadow-blue-300 mb-10">
+          Corgi
+        </h3>
+
         <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
           {reprodutores.map((cao, index) => (
             <div
@@ -49,12 +47,11 @@ export default function Reprodutores() {
               <img
                 src={cao.imagem}
                 alt={cao.nome}
-                className="w-full h-60 object-cover rounded-lg mb-4"
+                className="w-full h-50 object-cover rounded-lg mb-4"
               />
               <h3 className="text-xl font-semibold text-blue-900">
                 {cao.nome}
               </h3>
-              <p className="text-sm text-gray-700 mt-1">{cao.descricao}</p>
             </div>
           ))}
         </div>
