@@ -6,7 +6,8 @@ export default function FloatingSocialButtons() {
       
       {/* WhatsApp */}
       <a
-        href="https://wa.me/5511999999999"
+        href="https://wa.me/5511947189164
+"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative flex items-center justify-start w-20 hover:w-56 transition-all duration-300 shadow-lg overflow-visible bg-green-700 rounded-full"
@@ -32,7 +33,7 @@ export default function FloatingSocialButtons() {
 
       {/* Instagram */}
       <a
-        href="https://www.instagram.com/seu_perfil"
+        href="https://www.instagram.com/familiabonsfluidos/"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative flex items-center justify-start w-20 hover:w-56 transition-all duration-300 shadow-lg overflow-visible rounded-full bg-gradient-to-tr from-pink-500 via-red-500 to-yellow-500"
